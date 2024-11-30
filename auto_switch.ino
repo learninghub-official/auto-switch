@@ -1,10 +1,10 @@
 #include <ESP8266WiFi.h>
 #include <FirebaseESP8266.h>
 
-#define FIREBASE_HOST "https://autoswitch-b5b8c-default-rtdb.firebaseio.com/"     // URL from realtime database in the project
-#define FIREBASE_AUTH "4PLKK2OsAOk91qWe97KrdvsT7kMu2BFLapLwiVMr"       // AUTHcode of the project
-#define WIFI_SSID "GTPL501"        // wifiname
-#define WIFI_PASSWORD "mayank12345678"       // wifi password
+#define FIREBASE_HOST " "     // URL from realtime database in the project
+#define FIREBASE_AUTH " "       // AUTHcode of the project
+#define WIFI_SSID " "        // wifiname
+#define WIFI_PASSWORD " "       // wifi password
 
 // Define relay pin
 #define RELAY_PIN D1
