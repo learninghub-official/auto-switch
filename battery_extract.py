@@ -4,9 +4,9 @@ from firebase_admin import credentials, db
 import time
 
 # Initialize Firebase Admin SDK
-cred = credentials.Certificate("autoswitch-b5b8c-firebase-adminsdk-ixnkr-083658fe96.json")    #path to Jsonfile downloaded from Project
+cred = credentials.Certificate(" ")    #path to Jsonfile downloaded from Project
 firebase_admin.initialize_app(cred, {
-    'databaseURL': 'https://autoswitch-b5b8c-default-rtdb.firebaseio.com/'  #Realtime data base URL
+    'databaseURL': ' '  #Realtime data base URL
 })
 
 def get_battery_status():
